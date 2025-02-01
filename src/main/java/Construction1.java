@@ -43,7 +43,7 @@ public class Construction1 implements Construction {
         }
     }
 
-    public boolean сomplete() {
+    public boolean complete() {
         AStage stage = firstStage;
         while (stage != null){
             if (stage.getStatus() != StageStatus.COMPLETED){
