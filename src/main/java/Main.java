@@ -24,7 +24,6 @@ public class Main {
                 System.out.println("Стройка прервана " + e.getMessage());
             }
         }
-
         double s = (double) (count / totalConstructions);
         System.out.println("Вероятность успешного завершения строительства: " + s);
     }
